@@ -1,0 +1,18 @@
+{
+	"manifest_version": 2,
+	"name": "reader-theme",
+	"description": "A Dynamic theme that reacts to Firefox's Reader Mode",
+	"version": "1.0.0",
+	"icons": {
+		"128": "img/icon.png"
+	},
+	"permissions": [
+		"theme",
+		"tabs"
+	],
+	"background": {
+		"scripts": [
+			"/background_script.js"
+		]
+	}
+}
